@@ -45,6 +45,6 @@ When(/^User change the search category to Iphone$/, async () => {
     await product.changeKeyword();
   });
 
-Then(/^'I should see that the first result name matches Iphone$/, async () => {
+Then(/^'User should see that the first result name matches Iphone$/, async () => {
     await product.validateKeyword();
   });
