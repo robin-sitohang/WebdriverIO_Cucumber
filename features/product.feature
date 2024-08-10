@@ -15,4 +15,4 @@ Feature: Filtering Product on eBay
             Given User Go To Homepage
              When User type MacBook into the search bar
               And User change the search category to Iphone
-             Then I should see that the first result name matches Iphone
+             Then User should see that the first result name matches Iphone
